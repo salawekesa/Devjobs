@@ -1,0 +1,65 @@
+.Search-container{
+    margin-top: -50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.Search-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3rem;
+
+}
+
+.ri-map-pin-line{
+    color: red;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.job-card{
+    width: 80%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    
+}
+
+.job{
+    height: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+}
+
+.job-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.logoimg{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: 1rem;
+    
+}
