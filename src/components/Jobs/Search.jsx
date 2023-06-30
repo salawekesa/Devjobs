@@ -13,7 +13,7 @@ function Search() {
     </div>
     
     <div className='Search_3'>
-      <label for="filter-by">Filter by</label> 
+      <label htmlFor="filter-by">Filter by</label> 
         <select name="filter-by" id="filter-by"> 
             <option value="FullTime">FullTime</option> 
             <option value="PartTime">PartTime</option> 

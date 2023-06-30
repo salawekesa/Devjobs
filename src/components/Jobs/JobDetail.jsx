@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import jobs from './data.json';
 
-const JobDetail = () => {
+function JobDetail() {
+  const { position } = useParams();
+  const job = jobs.find((job) => job.position === position);
+
+
   return (
-    <div>JobDetail</div>
-  )
+    <div>
+      <h2>{job.position}</h2>
+      <p>{job.company}</p>
+      <p>{job.location}</p>
+      <p>{job.description}</p>
+      {/* Add any other job details you want to display */}
+    </div>
+  );
 }
 
-export default JobDetail
+export default JobDetail;
